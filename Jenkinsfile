@@ -1,13 +1,9 @@
 pipeline {
-<<<<<<< HEAD
     agent {
       label {
         label 'host01'
       }
     }
-=======
-    agent host01
->>>>>>> 967ca53b741381eb0194a55a5e63a61c5e732ad6
     
     tools
     {
