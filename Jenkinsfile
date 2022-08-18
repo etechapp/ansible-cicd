@@ -8,7 +8,7 @@ pipeline {
     tools
     {
        maven 'maven'
-       ansible 'ansible'
+       Ansible 'ansible'
     }
      
     stages {
