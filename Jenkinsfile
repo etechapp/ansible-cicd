@@ -1,9 +1,5 @@
 pipeline {
-    agent {
-      label {
-        label 'host01'
-      }
-    }
+    agent any
     
     tools {
        maven 'maven'
